@@ -1,0 +1,23 @@
+{
+  "name": "gol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "babel-node": "0.0.1-security",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "node": "^15.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
